@@ -1,0 +1,71 @@
+@{
+    ViewData["Title"] = "Plano de Contas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+
+
+<button type="button" class="btn btn-primary btn-lg" onclick="create()">Criar Item de Plano de Conta</button>
+<hr/>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Tipo</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    @{
+      foreach(var item in  (List<PlanoContaModel>)ViewBag.ListaPlanoConta)
+      {
+      <tr>
+        <td>@item.Id</td>
+        <td>@item.Descricao</td>
+        <td>@item.Tipo</td>
+        <td><button type="button" class="btn btn-outline-info" onclick="edit(@item.Id.ToString())">Editar</button></td>
+        <td><button type="button" class="btn btn-danger" onclick="remove(@item.Id.ToString())">Excluir</button></td>
+      </tr>
+      }
+    }
+
+  </tbody>
+</table>
+
+
+<script>
+
+
+    function create(){
+        window.location.href = "/PlanoConta/Cadastro"
+    }
+
+    function edit(id){
+        window.location.href = "/PlanoConta/Cadastro/" + id
+
+    }
+    function remove(id){
+        Swal.fire({
+            title: 'Confirme a Exclusão',
+            text: 'Atenção',
+            icon: 'question',
+            confirmButtonText: 'Excluir',
+            confirmButtonColor: '#007BFF',
+            showCancelButton: true,
+            cancelButtonText: 'Cancelar',
+            cancelButtonColor: '#DC3545',
+
+        }).then(result =>{
+        if (result.isConfirmed){
+              window.location.href = "/PlanoConta/Excluir/" + id
+        }
+      })
+
+    }
+
+</script>

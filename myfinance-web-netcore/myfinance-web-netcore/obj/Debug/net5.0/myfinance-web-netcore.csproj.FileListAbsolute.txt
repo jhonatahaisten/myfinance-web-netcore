@@ -1,0 +1,8 @@
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.csproj.AssemblyReference.cache
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.AssemblyInfoInputs.cache
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.AssemblyInfo.cs
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.csproj.CoreCompileInputs.cache
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.MvcApplicationPartsAssemblyInfo.cache
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.RazorAssemblyInfo.cache
+C:\Git\Documentos\myfinance-web-netcore\myfinance-web-netcore\myfinance-web-netcore\obj\Debug\net5.0\myfinance-web-netcore.RazorAssemblyInfo.cs
